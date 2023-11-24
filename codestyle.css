@@ -1,0 +1,352 @@
+body{
+    background-color: #395144;
+    position: relative;
+    width: 1510px;
+    height: auto;
+}
+
+/* Header */
+.Header{
+    background-color: #4E6C50;
+    width:1505px;
+    height: 157px;
+}
+
+.ccis_logo{
+    position: absolute;
+    top: -5px;
+    width: 157px;
+    height: 145px;
+    flex-shrink: 0;
+    margin: 10px; 
+}
+
+.ccis_text{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    width: 436px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.home_button {
+    position: absolute;
+    top: 85px;
+    left: 700px;
+    width: 160.029px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #AA8B56;
+    border-radius: 10px;
+}
+
+.about_button{
+    position: absolute;
+    top: 85px;
+    left: 900px;
+    width: 160.029px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #AA8B56;
+    border-radius: 10px;
+}
+
+.gallery_button{
+    position: absolute;
+    top: 85px;
+    left: 1100px;
+    width: 160.029px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #AA8B56;
+    border-radius: 10px;
+}
+
+.home_text a{
+    text-decoration: none;
+    position: absolute;
+    top: 93px;
+    left: 743px;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.about_text a{
+    text-decoration: none;
+    position: absolute;
+    top: 93px;
+    left: 943px;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.gallery_text a{
+    text-decoration: none;
+    position: absolute;
+    top: 93px;
+    left: 1140px;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.burger{
+    position: absolute;
+    top: 35px;
+    left: 1300px;
+    width: 97px;
+    height: 80px;
+    margin: 10px;
+}
+
+/* Content */
+.Content{
+    background-color: #4E6C50;
+    width: 697px;
+    height: 314px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.lorem{
+    position: absolute;
+    top: 240px;
+    left: 55px;
+    width: 645px;
+    height: 200px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Happenings */
+.Happenings{
+    background-color: #4E6C50;
+    width: 697px;
+    height: 330px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 540px;
+    left: 30px;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.faculty{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.oath_taking{
+    position: absolute;
+    top: 80px;
+    left: 240px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.fun{
+    position: absolute;
+    top: 80px;
+    left: 460px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.faculty_text{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    width: 129px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.oath_taking_text{
+    position: absolute;
+    top: 250px;
+    left: 290px;
+    width: 129px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.fun_text{
+    position: absolute;
+    top: 270px;
+    left: 530px;
+    width: 76px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Featured Image */
+.Feature_Image{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    border-radius: 5px;
+    border: 0px solid #AA8B56;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+/* Learn More */
+.learn_more_button {
+    position: absolute;
+    top: 750px;
+    left: 950px;
+    width: 300px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F0EBCE;
+}
+
+.learn_more_text a{
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: #395144;
+    font-family: Roboto Serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Footer */
+.Footer{
+    background-color: #4E6C50;
+    width:1505px;
+    height: 69px;
+    position: absolute;
+    top: 900px;
+}
+
+.contact_button{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 160.029px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #AA8B56;
+    border-radius: 10px;
+}
+
+.contact_text a{
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 125px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.number_text{
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    width: 134px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ucs_text{
+    position: absolute;
+    top: 10px;
+    left: 1240px;
+    width: 134px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: right;
+}
+
+.ucs_logo{
+    position: absolute;
+    top: -5px;
+    left: 1380px;
+    width: 69px;
+    height: 62px;
+    flex-shrink: 0;
+    margin: 10px;
+}
